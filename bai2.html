@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var temp = parseInt(prompt('Nhap nhiet do hien tai'))
+
+        while (temp){
+            if (temp > 100){
+                alert('Giam xuong');
+                temp = parseInt(prompt('Nhap nhiet do hien tai'))
+            } else if (temp < 20){
+                alert('Tang len');
+                temp = parseInt(prompt('Nhap nhiet do hien tai'))
+            } else {
+                alert('Hoan thanh');
+                break
+            }
+        }
+    </script>
+</body>
+</html>
